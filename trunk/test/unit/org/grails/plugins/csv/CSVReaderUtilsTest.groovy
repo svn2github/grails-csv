@@ -35,17 +35,17 @@ class CSVReaderUtilsTest extends GrailsUnitTestCase {
 
     void testNewCsvReaderSeparatorChar() {
         CSVReader reader = CSVReaderUtils.toCsvReader(r, ['separatorChar': 'x'])
-        assertEquals('x', reader.parser.separator)
+        assertEquals('x' as Character, reader.parser.separator)
     }
 
     void testNewCsvReaderQuoteChar() {
         CSVReader reader = CSVReaderUtils.toCsvReader(r, ['quoteChar': 'x'])
-        assertEquals('x', reader.parser.quotechar)
+        assertEquals('x' as Character, reader.parser.quotechar)
     }
 
     void testNewCsvReaderEscapeChar() {
         CSVReader reader = CSVReaderUtils.toCsvReader(r, ['escapeChar': 'x'])
-        assertEquals('x', reader.parser.escape)
+        assertEquals('x' as Character, reader.parser.escape)
     }
 
     void testNewCsvReaderStrictQuotes() {
