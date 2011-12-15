@@ -23,7 +23,7 @@ import org.grails.plugins.csv.controller.RenderCsvMethod
 
 class CsvGrailsPlugin {
     // the plugin version
-    def version = "0.3"
+    def version = "0.3.1"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.2 > *"
     // the other plugins this plugin depends on
@@ -43,8 +43,8 @@ class CsvGrailsPlugin {
     ]
     
     // TODO Fill in these fields
-    def author = "Les Hazlewood"
-    def authorEmail = "les@katasoft.com"
+    def author = "Les Hazlewood, Stefan Armbruster"
+    def authorEmail = "les@katasoft.com, stefan@armbruster-it.de"
     def title = "Grails CSV Plugin"
     def description = '''
         The Grails CSV Plugin allows you to easily parse and consume CSV data from a number of input sources.  It
